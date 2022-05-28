@@ -94,24 +94,13 @@ const Home = () => (
             fontFamily='monospace'
             fontWeight="semibold"
             fontSize={15}
-            py={0}
+            rounded="lg"
+            py={1}
             mt={3}
             pl={3}
             background={'black'}
             >
-            ~$ ssh <Link href="https://term.tylertaewook.com">term.tylertaewook.com</Link>
-          </Text>
-          <Text
-            color={'whiteAlpha.900'}
-            fontFamily='monospace'
-            fontWeight="semibold"
-            fontSize={15}
-            py={0}
-            mb={3}
-            pl={3}
-            background={'black'}
-            >
-            ~$ ssh <Link color={"green.300"} href="https://blog.tylertaewook.com">blog.tylertaewook.com</Link><div id="cursor"></div>
+            ~$ ssh <Link href="https://term.tylertaewook.com">term.tylertaewook.com<div id="cursor"></div></Link>
           </Text>
         </Box>
         
@@ -160,15 +149,20 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
         📚 Featured Blog Posts
         </Heading>
-        {/* <UnorderedList>
-          <Link href="https://blog.tylertaewook.com/post/proximal-policy-optimization">
-            <ListItem>Understanding Proximal Policy Optimization (Schulman et al., 2017)</ListItem>
-          </Link>
-          <Link href="https://blog.tylertaewook.com/post/project-orbitron">
-            <ListItem>Orbitron: Reinventing the (spherical) wheels and its control algorithm</ListItem>
-          </Link>
-        </UnorderedList> */}
         <Stack>
+          <Text
+              color={'whiteAlpha.900'}
+              fontFamily='monospace'
+              fontWeight="semibold"
+              fontSize={15}
+              rounded="lg"
+              py={1}
+              mb={1}
+              pl={3}
+              background={'black'}
+              >
+              ~$ ssh <Link color={"green.300"} href="https://blog.tylertaewook.com">blog.tylertaewook.com</Link><div id="cursor"></div>
+          </Text>
           <BlogItem 
               title="Understanding Proximal Policy Optimization (Schulman et al., 2017)" 
               summary="How I approached the PPO paper bottom-up as a beginner" 

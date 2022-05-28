@@ -94,9 +94,9 @@ export const BlogItem = ({ href, title, summary, date }) => (
                 <Text fontSize="sm">{summary}</Text>
               </Box>
               <Spacer />
-              <Box textAlign="right">
+              {/* <Box textAlign="right">
                 <Text fontWeight="thin">{date}</Text>
-              </Box>
+              </Box> */}
           </Flex>
         </Flex>
       </Stack>
