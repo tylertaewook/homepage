@@ -10,7 +10,7 @@ import {
   useColorModeValue,
   chakra,
   IconButton,
-  Text
+  Text,
 } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { GridItem, BlogItem } from '../components/grid-item'
 import { BsGithub, BsLinkedin, BsMedium } from 'react-icons/bs'
 import thumbScraft from '../public/images/projects/scraft-01.png'
 import thumbOrbitron from '../public/images/projects/orbitron-01.png'
@@ -144,7 +144,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Nice to meet you!
+         👋 Nice to meet you!
         </Heading>
         <Paragraph>
           My name is Tyler, a first-year undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
@@ -158,7 +158,37 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          I&apos;m interested in...
+        📚 Featured Blog Posts
+        </Heading>
+        {/* <UnorderedList>
+          <Link href="https://blog.tylertaewook.com/post/proximal-policy-optimization">
+            <ListItem>Understanding Proximal Policy Optimization (Schulman et al., 2017)</ListItem>
+          </Link>
+          <Link href="https://blog.tylertaewook.com/post/project-orbitron">
+            <ListItem>Orbitron: Reinventing the (spherical) wheels and its control algorithm</ListItem>
+          </Link>
+        </UnorderedList> */}
+        <Stack>
+          <BlogItem 
+              title="Understanding Proximal Policy Optimization (Schulman et al., 2017)" 
+              summary="How I approached the PPO paper bottom-up as a beginner" 
+              date="April 30, 2021" 
+              href="https://blog.tylertaewook.com/post/proximal-policy-optimization"
+          >
+          </BlogItem>
+          <BlogItem 
+              title="Orbitron: Reinventing the (spherical) wheels and its control algorithm" 
+              summary="My six-month journey of building a 4 Wheel Independent Steering/Driving Vehicle" 
+              date="April 2, 2021" 
+              href="https://blog.tylertaewook.com/post/project-orbitron"
+          >
+          </BlogItem>
+        </Stack>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+         🚀 I&apos;m interested in...
         </Heading>
         <BioSection>
           <BioYear>Web Development</BioYear>
@@ -174,9 +204,10 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
-          I&apos;m most proud of...
+        💡 I&apos;m most proud of...
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>

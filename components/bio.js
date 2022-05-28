@@ -10,3 +10,9 @@ export const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
 `
+
+export const BlogPost = styled(Box)`
+  padding-left: 3.4em;
+  font-weight: bold;
+  text-indent: -1.4em;
+`

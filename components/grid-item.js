@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Stack, Flex, Spacer, Avatar } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Stack, Flex, Spacer, Avatar, Link, color } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
@@ -73,6 +73,35 @@ export const ExpItem = ({ children, company, position, time, location, thumbnail
   //     <Text fontSize={14}>{children}</Text>
   //   </LinkBox>
   // </Box>
+)
+
+export const BlogItem = ({ href, title, summary, date }) => (
+  <Link href={href} textColor="black" textDecoration="none" _hover={{
+    textDecoration: "none",
+  }} >
+    <Box borderWidth='2px' borderRadius='lg' borderColor={"teal"} mb="1.5"
+    _hover={{
+    background: "whiteAlpha.500",
+    }} 
+    _dark={{
+    color: "white",
+    }}>
+      <Stack boxShadow="lg" p="2" borderRadius="md" border={"thick"}>
+        <Flex>
+          <Flex width="100%" ml={2} justifyContent="space-between">
+              <Box>
+                <Text fontWeight="semibold">{title}</Text>
+                <Text fontSize="sm">{summary}</Text>
+              </Box>
+              <Spacer />
+              <Box textAlign="right">
+                <Text fontWeight="thin">{date}</Text>
+              </Box>
+          </Flex>
+        </Flex>
+      </Stack>
+    </Box>
+  </Link>
 )
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
