@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Stack, Flex, Spacer, Avatar, Link, color } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Stack, Flex, Spacer, Avatar, Link } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
@@ -75,7 +75,7 @@ export const ExpItem = ({ children, company, position, time, location, thumbnail
   // </Box>
 )
 
-export const BlogItem = ({ href, title, summary, date }) => (
+export const BlogItem = ({ href, title, summary }) => (
   <Link href={href} textColor="black" textDecoration="none" _hover={{
     textDecoration: "none",
   }} >
