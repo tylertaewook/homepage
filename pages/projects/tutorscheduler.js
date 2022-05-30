@@ -28,12 +28,12 @@ const Work = () => (
         </Link>
       </Stack>
       <P>
-        CRUD Peer tutor scheduling web service for alma mater Kent School
+      A Django CRUD web app for scheduling peer tutor sessions in Boarding School's Academic Resource Center
       </P>
       <UnorderedList my={4}>
         <ListItem>
           <P>
-          Students can sign up, edit, or delete tutor sessions. Tutors can keep track of upcoming sessions. Teachers have access to admin panel and can refer students to sessions
+          Tutor Session CRUD (Create, Read, Update, Delete): Students can sign up, edit, or delete tutor sessions. Tutors can keep track of upcoming sessions. Teachers have access to admin panel and can refer students to sessions
           </P>
         </ListItem>
 
@@ -47,46 +47,27 @@ const Work = () => (
           Profile pages with upcoming and past sessions depending on user groups; Students and tutors can view past and upcoming tutor sessions.
           </P>
         </ListItem>
+        <ListItem>
+          <P>
+          Testing: pytest + codecov + Factoryboy
+          </P>
+        </ListItem>
       </UnorderedList>
       
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://libguides.kent-school.edu/library">
-            https://libguides.kent-school.edu/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Stacks</Meta>
           <span>Django, PostgreSQL, Bootstrap</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Blogpost</Meta>
+          <Link href="https://blog.tylertaewook.com/post/tutor-scheduler-django">
+          What I learned from building a Django appointment scheduler for my school <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
       </List>
 
       <WorkImage src="/images/projects/tutor-01.png" alt="scraft" />
-      {/* <WorkImage src="/images/projects/orbitron-03.png" alt="Algorithm" />
-      <WorkImage src="/images/projects/orbitron-02.png" alt="Algorithm" /> */}
-
-      {/* <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://kentnews.org/2525/features/a-guild-presentation-by-tyler-kim-20/">
-            <Badge mr={2}>Kent News</Badge>
-            A Guild Presentation by Tyler Kim ‘20{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="https://kentnews.org/2382/features/an-outstanding-performance-at-the-71st-annual-connecticut-science-and-engineering-fair/">
-            <Badge mr={2}>Kent News</Badge>
-            An Outstanding Performance at the 71st Annual Connecticut Science and Engineering Fair{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList> */}
 
     </Container>
   </Layout>

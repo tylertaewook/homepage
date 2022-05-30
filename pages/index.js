@@ -79,7 +79,7 @@ const Home = () => (
                 icon={<BsLinkedin />}
               />
             </Link>
-            <Link href="https://term.tylertaewook.com/" target="_blank">
+            <Link href="https://tylertaewook.medium.com/" target="_blank">
               <IconButton
                 variant='outline'
                 colorScheme='teal'
