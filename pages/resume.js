@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { ExpItem } from '../components/grid-item'
 
 const Posts = () => (
-  <Layout title="Posts">
+  <Layout title="Experience">
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Heading as="h3" fontSize={30}>
@@ -27,7 +27,7 @@ const Posts = () => (
         <Stack>
         <ExpItem 
             company="Columbia University" 
-            position="B.S. in Computer Science" 
+            position="B.S. Candidate in Computer Science" 
             time="Sept 2022 - June 2026" 
             location="New York, NY" 
             thumbnail='/images/resume/columbia.png'
@@ -60,27 +60,42 @@ const Posts = () => (
       <Section delay={0.3}>
         <Stack>
         <ExpItem 
+            company="Scraft.ai" 
+            position="Founder/Principal Developer" 
+            time="Jan 2022 - Present" 
+            location="Seoul, Korea" 
+            thumbnail='/images/resume/scraft.png'
+        >
+            <UnorderedList>
+              <ListItem>Building an AI-powered essay planner that can generate essay structure from prompts and suggest relevant articles
+based on writing context</ListItem>
+            </UnorderedList>
+        </ExpItem>
+        <ExpItem 
             company="Faikerz" 
-            position="Freelance Software Engineer" 
-            time="July 2021 - Present" 
+            position="Software Engineer" 
+            time="July 2021 - July 2022" 
             location="Seoul, Korea" 
             thumbnail='/images/resume/faikerz.png'
         >
             <UnorderedList>
-              <ListItem>Working on multiple counterfeit detection model and APIs; used against Korean E-commerce sites and global fashion brand clients</ListItem>
-              <ListItem>Methods include keyword/price correlation analysis, image-classification, and unsupervised clustering</ListItem>
+              <ListItem>Worked on counterfeit detecting models/APIs with fashion brand clients and live-tested against Korean E-commerce sites</ListItem>
+              <ListItem>Implemented hierarchical image classification model for CH*NEL product category with EfficientNet and PyTorch</ListItem>
+              <ListItem>Built a keyword analysis API that detects anomalies in keyword/price distribution for online products</ListItem>
+              <ListItem>Built a clustering model that categorizes online products based on price, supplier, trademark, and distribution path</ListItem>
             </UnorderedList>
         </ExpItem>
         <ExpItem 
             company="DIYA ML2 - Machine Learning Club" 
-            position="Member" 
+            position="Member, Multi-Agent Reinforcement Learning Team" 
             time="March 2021 - Aug 2021" 
             location="Remote" 
             thumbnail='/images/resume/diya.png'
         >
             <UnorderedList>
-              <ListItem>Presented and code-reviewed two relevant papers in the Multi-Agent Reinforcement Learning (MARL) team every week.</ListItem>
-              <ListItem> Co-implemented PPO/DQN algorithms with PyTorch in Pommerman MARL environment as baseline models</ListItem>
+              <ListItem>Studied, presented, and implemented two reinforcement-learning papers every week</ListItem>
+              <ListItem>Co-implemented PPO/DQN algorithms with PyTorch in Pommerman and Snake MARL environment as baseline
+models</ListItem>
             </UnorderedList>
         </ExpItem>
         <ExpItem 
@@ -92,10 +107,11 @@ const Posts = () => (
         >
             <UnorderedList>
               <ListItem>
-                Assisted ML texture analysis research in Dr. Alina Zare’s lab by implementing deep network models in PyTorch and conducting various experiments with different parameters
+              Implemented a histogram layer for texture analysis CNN model with PyTorch in Dr. Alina Zare’s Lab
               </ListItem>
               <ListItem> 
-                Wrote and presented a research report titled ‘Histogram Layer for Texture Classification’ and received the best research paper award among participants
+              Wrote and presented a research paper and poster titled Histogram Layer for Texture Classification; Won the Best
+Research Paper Award.
               </ListItem>
             </UnorderedList>
         </ExpItem>

@@ -28,7 +28,7 @@ const Work = () => (
         </Link>
       </Stack>
       <P>
-      A Django CRUD web app for scheduling peer tutor sessions in Boarding School's Academic Resource Center
+      A Django CRUD web app for scheduling peer tutor sessions in Boarding School&apos;s Academic Resource Center
       </P>
       <UnorderedList my={4}>
         <ListItem>

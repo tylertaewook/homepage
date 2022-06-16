@@ -25,7 +25,8 @@ const Work = () => (
         </Button>
       </Stack>
       <P>
-      Web-based essay planner with text-mining features
+      AI-powered essay planner that can generate essay structure from prompts and suggest relevant articles
+based on writing context
       </P>
       <List ml={4} my={4}>
         <ListItem>

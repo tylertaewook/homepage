@@ -26,15 +26,6 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 export const ExpItem = ({ children, company, position, time, location, thumbnail }) => (
   <Box borderWidth='2px' borderRadius='lg' borderColor={"teal"} mb="2">
     <Stack boxShadow="lg" p="4" borderRadius="md" border={"thick"}>
-      {/* <Stack direction={{ base: 'column', md: 'row' }}> */}
-        {/* <Image
-          src={thumbnail}
-          className="grid-item-thumbnail"
-          placeholder="blur"
-          loading="lazy"
-          height={40}
-          width={40}
-        /> */}
       <Flex>
         <Avatar src={thumbnail} size="lg" />
         <Flex width="100%" ml={2} justifyContent="space-between">
