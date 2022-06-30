@@ -37,7 +37,7 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="scraft" title="scraft" thumbnail={thumbScraft}>
+          <WorkGridItem id="scraft" title="Scraft" thumbnail={thumbScraft}>
             Web-based essay planner with text-mining features
           </WorkGridItem>
           <Center >
@@ -49,7 +49,7 @@ const Projects = () => (
         <Section>
           <WorkGridItem
             id="orbitron"
-            title="orbitron"
+            title="Orbitron"
             thumbnail={thumbOrbitron}
           >
             Spherical wheeled vehicle & control algorithm
@@ -73,11 +73,12 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
-          <WorkGridItem id="fashion-hiernet" thumbnail={thumbFashion} title="Fashion HierNet">
-            Hierarchical Image Classification of Fashion commerce using EfficientNet
+          <WorkGridItem id="lcpn-hiernet" thumbnail={thumbFashion} title="LCPN HierNet">
+          Hierarchical image classification model for fashion commerce items based on EfficientNet-b4 and LCPN (Local Classifier per Parent Node) technique.
           </WorkGridItem>
           <Center >
             <Tag>ML (computer-vision)</Tag>
+            <Tag>Faikerz</Tag>
           </Center>
         </Section>
         <Section delay={0.2}>
@@ -98,7 +99,9 @@ const Projects = () => (
             keyword extraction tool/API to assist small businesses to detect counterfeit products on Korean E-commerce websites
           </WorkGridItem>
           <Center >
+            <Tag>ML (NLP)</Tag>
             <Tag>API</Tag>
+            <Tag>Faikerz</Tag>
           </Center>
         </Section>
         <Section delay={0.2}>

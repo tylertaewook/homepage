@@ -17,11 +17,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@tylertaewook" />
         <meta name="twitter:creator" content="@tylertaewook" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        <meta name="twitter:image" content="https://tylertaewook.com/card.png" />
         <meta property="og:site_name" content="Tyler Kim" />
         <meta name="og:title" content="Tyler Kim" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="https://tylertaewook.com/card.png" />
         <title>Tyler Kim - Homepage</title>
       </Head>
 

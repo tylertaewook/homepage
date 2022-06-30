@@ -164,6 +164,13 @@ const Home = () => (
               ~$ ssh <Link color={"green.300"} href="https://blog.tylertaewook.com">blog.tylertaewook.com</Link><div id="cursor"></div>
           </Text>
           <BlogItem 
+              title="What I learned from building a Django appointment scheduler for my school" 
+              summary="The project that taught me how to learn, why I learn, and what to learn in my future CS career." 
+              date="May 30, 2021" 
+              href="https://blog.tylertaewook.com/post/tutor-scheduler-django"
+          >
+          </BlogItem>
+          <BlogItem 
               title="Understanding Proximal Policy Optimization (Schulman et al., 2017)" 
               summary="How I approached the PPO paper bottom-up as a beginner" 
               date="April 30, 2021" 
@@ -186,7 +193,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          react, django, flask, typescript
+          react, django, flask, typescript, nextjs, redux, tailwindcss
         </BioSection>
         <BioSection>
           <BioYear>Machine Learning</BioYear>
@@ -207,10 +214,10 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="/projects/scraft"
-            title="scraft.ai"
+            title="Scraft"
             thumbnail={thumbScraft}
           >
-            Web-based essay planner with text-mining features
+            AI-powered essay planner
           </GridItem>
           <GridItem
             href="/projects/orbitron"

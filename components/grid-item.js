@@ -70,7 +70,7 @@ export const BlogItem = ({ href, title, summary }) => (
   <Link href={href} textColor="black" textDecoration="none" _hover={{
     textDecoration: "none",
   }} >
-    <Box borderWidth='2px' borderRadius='lg' borderColor={"teal"} mb="1.5"
+    <Box borderWidth='1px' borderRadius='lg' borderColor={"teal"} mb="1.5"
     _hover={{
     background: "whiteAlpha.500",
     }} 

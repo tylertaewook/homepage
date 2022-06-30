@@ -18,7 +18,7 @@ const Work = () => (
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Title>
-            scraft <Badge>Work In Progress 🚧</Badge>
+            Scraft <Badge>Work In Progress 🚧</Badge>
         </Title>
         <Button leftIcon={<BsGithub/>} colorScheme="teal" size='sm' variant='solid' isDisabled={true}>
           Private Repo
@@ -32,16 +32,16 @@ based on writing context
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://scraft.ai/">
-            https://scraft.ai/ <ExternalLinkIcon mx="2px" />
+            scraft.ai/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Frontend</Meta>
-          <span>NextJS, React, Tailwindcss</span>
+          <span>NextJS, React, Redux, Tailwindcss</span>
         </ListItem>
         <ListItem>
           <Meta>Backend</Meta>
-          <span>Django Rest, GPT-3, Huggingface, PostgreSQL, Docker</span>
+          <span>Django Rest, GPT-3, KeyBERT, PostgreSQL, Docker</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>
@@ -49,6 +49,15 @@ based on writing context
             Something I wrote about scraft <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem> */}
+        <ListItem>
+          <Meta>SNS</Meta>
+          <Link href="https://www.instagram.com/scraft.ai/">
+            Instagram <ExternalLinkIcon mx="2px" />
+          </Link>
+          <Link href="https://www.linkedin.com/company/scraftai">
+            LinkedIn <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/projects/scraft-01.png" alt="scraft" />
