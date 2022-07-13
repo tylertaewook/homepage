@@ -10,7 +10,9 @@ export default class Document extends NextDocument {
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
-          <NextScript />
+          <NextScript>
+            <script src="https://w.behold.so/widget.js" type="module"></script>
+          </NextScript>
         </body>
       </Html>
     )

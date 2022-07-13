@@ -236,6 +236,16 @@ const Home = () => (
           </NextLink>
         </Box>
       </Section>
+
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
+        📷 Check out my photos too! 
+        </Heading>
+        <div data-behold-id="RDowKcEDWoWumFz3qWsp"></div>
+      <script src="https://w.behold.so/widget.js" type="module"></script>
+      </Section>
+
+  
     </Container>
   </Layout>
 )
