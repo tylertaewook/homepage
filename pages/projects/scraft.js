@@ -4,6 +4,7 @@ import {
   Link,
   List,
   ListItem,
+  AspectRatio,
   Button,
   Stack
 } from '@chakra-ui/react'
@@ -18,15 +19,17 @@ const Work = () => (
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Title>
-            Scraft <Badge>Work In Progress 🚧</Badge>
+            Scraft <Badge>Jan 2022 - Present</Badge>
         </Title>
         <Button leftIcon={<BsGithub/>} colorScheme="teal" size='sm' variant='solid' isDisabled={true}>
           Private Repo
         </Button>
       </Stack>
       <P>
-      AI-powered essay planner that can generate essay structure from prompts and suggest relevant articles
-based on writing context
+      Scraft is an AI-powered writing tool designed to train critical writing skills. It helps you practice crafting better arguments and expressing your ideas into writing.
+      </P>
+      <P>
+      Based on the entered topic, Scraft asks you questions and suggest relevant articles you can reference to. Additionally, follow our Plan-Draft-Write steps to organize and express your ideas in a well-written draft.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -41,7 +44,11 @@ based on writing context
         </ListItem>
         <ListItem>
           <Meta>Backend</Meta>
-          <span>Django Rest, GPT-3, KeyBERT, PostgreSQL, Docker</span>
+          <span>Django Rest, PostgreSQL, Docker, GPT-3</span>
+        </ListItem>
+        <ListItem>
+          <Meta>DevOps</Meta>
+          <span>Vercel, DigitalOcean, AWS S3, CircleCI</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>
@@ -61,6 +68,15 @@ based on writing context
       </List>
 
       <WorkImage src="/images/projects/scraft-01.png" alt="scraft" />
+      <AspectRatio maxW="820px" ratio={1.7} my={4}>
+        <iframe
+          src="https://www.youtube.com/embed/dTJy7gU4Xjk"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </AspectRatio>
       {/* <WorkImage src="/images/projects/orbitron-03.png" alt="Algorithm" />
       <WorkImage src="/images/projects/orbitron-02.png" alt="Algorithm" /> */}
 

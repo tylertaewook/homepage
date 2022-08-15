@@ -38,7 +38,7 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="scraft" title="Scraft" thumbnail={thumbScraft}>
-            Web-based essay planner with text-mining features
+          AI-powered essay writing tool
           </WorkGridItem>
           <Center >
             <Tag>Web-dev</Tag>
@@ -74,7 +74,7 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
           <WorkGridItem id="lcpn-hiernet" thumbnail={thumbFashion} title="LCPN HierNet">
-          Hierarchical image classification model for fashion commerce items based on EfficientNet-b4 and LCPN (Local Classifier per Parent Node) technique.
+          Hierarchical image classification model
           </WorkGridItem>
           <Center >
             <Tag>ML (computer-vision)</Tag>
@@ -110,7 +110,7 @@ const Projects = () => (
             thumbnail={thumbHistCNN}
             title="Histogram Layer for Texture Classification"
           >
-            hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.
+            Hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.
           </WorkGridItem>
           <Center >
             <Tag>ML (computer-vision)</Tag>
