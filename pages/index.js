@@ -164,6 +164,12 @@ const Home = () => (
               ~$ ssh <Link color={"green.300"} href="https://blog.tylertaewook.com">blog.tylertaewook.com</Link><div id="cursor"></div>
           </Text>
           <BlogItem 
+              title="How AI's Socratic Questioning can help you write better" 
+              summary="Story behind building Scraft: an AI-powered Writing Tool" 
+              date="August 18, 2022" 
+              href="https://blog.tylertaewook.com/post/ai-socratic-questioning"
+          ></BlogItem>
+          <BlogItem 
               title="What I learned from building a Django appointment scheduler for my school" 
               summary="The project that taught me how to learn, why I learn, and what to learn in my future CS career." 
               date="May 30, 2021" 
