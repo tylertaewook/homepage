@@ -28,17 +28,17 @@ const Posts = () => (
         <ExpItem 
             company="Columbia University" 
             position="B.S. Candidate in Computer Science" 
-            time="Sept 2022 - June 2026" 
+            time="Sept 2020 - June 2025" 
             location="New York, NY" 
             thumbnail='/images/resume/columbia.png'
         >
             <UnorderedList>
               <ListItem>Leave of Absence [Sept 2020 - Sept 2022]</ListItem>
-              {/* <ListItem>Activities: to be updated</ListItem>
-              <ListItem>Courseworks: to be updated</ListItem> */}
+              <ListItem>Courseworks: Data Structures in Java, Discrete Mathematics, Multi-variable Calculus, Advanced Programming in C, Fundamentals of Computer Systems, Linear Algebra and Probability</ListItem>
+              <ListItem>Received the Chung Family Scholarship at Columbia Engineering for academic excellence</ListItem>
             </UnorderedList>
         </ExpItem>
-        <ExpItem 
+        {/* <ExpItem 
             company="Kent School" 
             position="High School Diploma" 
             time="Sept 2018 - June 2020" 
@@ -49,7 +49,7 @@ const Posts = () => (
               <ListItem>Activities: Coding club, Peer Tutor, Kent Guild</ListItem>
               <ListItem>GPA: 4.16</ListItem>
             </UnorderedList>
-        </ExpItem>
+        </ExpItem> */}
         </Stack>
       </Section>
 
@@ -60,15 +60,20 @@ const Posts = () => (
       <Section delay={0.3}>
         <Stack>
         <ExpItem 
-            company="Scraft.ai" 
+            company="Scraft" 
             position="Founder/Principal Developer" 
-            time="Jan 2022 - Present" 
-            location="Seoul, Korea" 
+            time="Jan 2023 - Present" 
+            location="New York NY" 
             thumbnail='/images/resume/scraft.png'
         >
             <UnorderedList>
-              <ListItem>Building an AI-powered essay planner that can generate essay structure from prompts and suggest relevant articles
-based on writing context</ListItem>
+              <ListItem>Built a web app with Typescript, React, NextJS, Django, Azure AI Studio, Firebase that leverages on GPT4</ListItem>
+              <ListItem>Winner of Pear VC Competition ($10,000 SAFE), US Champion in Education at Microsoft Imagine Cup ($2,500),
+1st Place at Columbia Venture Competition ($15,000), Top 10% of YCombinator W23 applications
+</ListItem>
+              <ListItem>Beta-tested in three courses at Columbia; Conducted 30+ user interviews that led our pivot to language learning</ListItem>
+              <ListItem>Developed referral dashboard and streaks feature that led to 270% increase in signups, 12% increase in retention</ListItem>
+              <ListItem>Hired and led two Project Management interns to develop A/B testing and feedback pipeline for new features</ListItem>
             </UnorderedList>
         </ExpItem>
         <ExpItem 

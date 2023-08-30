@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi, I&apos;m a first-year studying CS at Columbia!
+        Hi, I&apos;m a second-year studying CS at Columbia!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -136,12 +136,11 @@ const Home = () => (
          👋 Nice to meet you!
         </Heading>
         <Paragraph>
-          My name is Tyler, a first-year undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
-          My general interest revolves around intertwining Machine Learning and Web Development in which I spark my passion working on ML Web apps such as {' '}
+          My name is Tyler, a second-year undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
+          My current interest revolves around the intersection of LLMs and education as shown in my ongoing project {' '}
           <NextLink href="/projects/scraft" passHref scroll={false}>
             <Link>scraft.ai</Link>
           </NextLink>.
-          I&apos;m curently exploring fields like text-mining, arduino-robotics, computer-vision, and reinforcement-learning until I settle onto a single one that I would like to dive deeper.{' '}
         </Paragraph>
       </Section>
 
@@ -223,7 +222,7 @@ const Home = () => (
             title="Scraft"
             thumbnail={thumbScraft}
           >
-            AI-powered essay planner
+            Interactive Storybook for Language Learners
           </GridItem>
           <GridItem
             href="/projects/orbitron"

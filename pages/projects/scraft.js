@@ -4,6 +4,9 @@ import {
   Link,
   List,
   ListItem,
+  UnorderedList,
+  Heading,
+  Center,
   AspectRatio,
   Button,
   Stack
@@ -19,17 +22,14 @@ const Work = () => (
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Title>
-            Scraft <Badge>Jan 2022 - Present</Badge>
+            Scraft <Badge>Jan 2023 - Present</Badge>
         </Title>
         <Button leftIcon={<BsGithub/>} colorScheme="teal" size='sm' variant='solid' isDisabled={true}>
           Private Repo
         </Button>
       </Stack>
       <P>
-      Scraft is an AI-powered writing tool designed to train critical writing skills. It helps you practice crafting better arguments and expressing your ideas into writing.
-      </P>
-      <P>
-      Based on the entered topic, Scraft asks you questions and suggest relevant articles you can reference to. Additionally, follow our Plan-Draft-Write steps to organize and express your ideas in a well-written draft.
+      Scraft offers an immersive, storybook-inspired language curriculum that engages children in interactive reading, writing, listening, and speaking games. Each narrative module is customized to each child’s language proficiency, providing a personalized and effective learning journey.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -53,7 +53,7 @@ const Work = () => (
         {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
-            Something I wrote about scraft <ExternalLinkIcon mx="2px" />
+          Something I wrote about scraft <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem> */}
         <ListItem>
@@ -67,6 +67,26 @@ const Work = () => (
         </ListItem>
       </List>
 
+        <Heading as="h3" fontSize={22} my={4}>
+          <Center>Awards
+          </Center>
+        </Heading>
+  
+        <UnorderedList my={4}>
+          <ListItem>
+              <Badge mr={2}>$10,000 SAFE</Badge>
+              Winner of Pear VC Competition
+          </ListItem>
+          <ListItem>
+              <Badge mr={2}>$2,500 CASH</Badge>
+              Chamption of Microsoft Imagine Cup 2023 (US, Education)
+          </ListItem>
+          <ListItem>
+              <Badge mr={2}>$15,000 CASH</Badge>
+              1st Place, Columbia Venture Competion
+          </ListItem>
+
+        </UnorderedList>
       <WorkImage src="/images/projects/scraft-01.png" alt="scraft" />
       <AspectRatio maxW="820px" ratio={1.7} my={4}>
         <iframe
@@ -80,27 +100,7 @@ const Work = () => (
       {/* <WorkImage src="/images/projects/orbitron-03.png" alt="Algorithm" />
       <WorkImage src="/images/projects/orbitron-02.png" alt="Algorithm" /> */}
 
-      {/* <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://kentnews.org/2525/features/a-guild-presentation-by-tyler-kim-20/">
-            <Badge mr={2}>Kent News</Badge>
-            A Guild Presentation by Tyler Kim ‘20{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="https://kentnews.org/2382/features/an-outstanding-performance-at-the-71st-annual-connecticut-science-and-engineering-fair/">
-            <Badge mr={2}>Kent News</Badge>
-            An Outstanding Performance at the 71st Annual Connecticut Science and Engineering Fair{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList> */}
+      
 
     </Container>
   </Layout>
