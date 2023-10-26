@@ -28,7 +28,7 @@ const Posts = () => (
         <ExpItem 
             company="Columbia University" 
             position="B.S. Candidate in Computer Science" 
-            time="Sept 2020 - June 2025" 
+            time="Sept 2020 - May 2025" 
             location="New York, NY" 
             thumbnail='/images/resume/columbia.png'
         >

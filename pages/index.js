@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi, I&apos;m a second-year studying CS at Columbia!
+        Hi, I&apos;m an undergrad studying CS at Columbia!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -136,7 +136,7 @@ const Home = () => (
          👋 Nice to meet you!
         </Heading>
         <Paragraph>
-          My name is Tyler, a second-year undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
+          My name is Tyler, an undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
           My current interest revolves around the intersection of LLMs and education as shown in my ongoing project {' '}
           <NextLink href="/projects/scraft" passHref scroll={false}>
             <Link>scraft.ai</Link>
