@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import { Tag } from '../components/work'
 
+import thumbEssay from '../public/images/projects/essay-01.png'
 import thumbScraft from '../public/images/projects/scraft-01.png'
 import thumbOrbitron from '../public/images/projects/orbitron-01.png'
 import thumbTutor from '../public/images/projects/tutor-01.png'
@@ -42,8 +43,17 @@ const Projects = () => (
           </WorkGridItem>
           <Center >
             <Tag>Web-dev</Tag>
+            <Tag>Fullstack</Tag>
+            <Tag>LLMOps</Tag>
+          </Center>
+        </Section>
+        <Section>
+          <WorkGridItem id="essay-planner" title="AI Essay Planner" thumbnail={thumbEssay}>
+          AI-Powered Essay Planner
+          </WorkGridItem>
+          <Center >
+            <Tag>Web-dev</Tag>
             <Tag>fullstack</Tag>
-            <Tag>ML (text-mining)</Tag>
           </Center>
         </Section>
         <Section>

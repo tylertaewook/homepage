@@ -22,14 +22,14 @@ const Work = () => (
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Title>
-            Scraft <Badge>Jan 2023 - Jan 2024</Badge>
+            Scraft Essay Planner <Badge>Jan 2022 - Jan 2023</Badge>
         </Title>
         <Button leftIcon={<BsGithub/>} colorScheme="teal" size='sm' variant='solid' isDisabled={true}>
           Private Repo
         </Button>
       </Stack>
       <P>
-      Scraft offers an immersive, storybook-inspired language curriculum that engages children in interactive reading, writing, listening, and speaking games. Each narrative module is customized to each child’s language proficiency, providing a personalized and effective learning journey.
+      Scraft is an AI-powered writing tool designed to train critical writing skills. It helps you practice crafting better arguments and expressing your ideas in writing. Later pivoted to interactive storybook for language learners
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -75,23 +75,7 @@ const Work = () => (
         <UnorderedList my={4}>
           <ListItem>
               <Badge mr={2}>$10,000 SAFE</Badge>
-              Top 10% at YC W23 Batch
-          </ListItem>
-          <ListItem>
-              <Badge mr={2}>Acceptance</Badge>
-              Anjal Z Techstars Founders Catalyst [Cohort IV]
-          </ListItem>
-          <ListItem>
-              <Badge mr={2}>$10,000 SAFE</Badge>
               Winner of Pear VC Competition
-          </ListItem>
-          <ListItem>
-              <Badge mr={2}>$25,000</Badge>
-              Winner of Startmate SBF Grant
-          </ListItem>
-          <ListItem>
-              <Badge mr={2}>$2,500</Badge>
-              Winner of General Catalyst Fellow Grant
           </ListItem>
           <ListItem>
               <Badge mr={2}>$2,500 CASH</Badge>
@@ -103,10 +87,9 @@ const Work = () => (
           </ListItem>
 
         </UnorderedList>
-      <WorkImage src="/images/projects/scraft-01.png" alt="scraft" />
       <AspectRatio maxW="820px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/39nTAnxtdac?si=b-7JhR96ibXtiS0U"
+          src="https://www.youtube.com/embed/dTJy7gU4Xjk"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
