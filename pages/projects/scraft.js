@@ -74,7 +74,7 @@ const Work = () => (
   
         <UnorderedList my={4}>
           <ListItem>
-              <Badge mr={2}>$10,000 SAFE</Badge>
+              <Badge mr={2}>Notice</Badge>
               Top 10% at YC W23 Batch
           </ListItem>
           <ListItem>
