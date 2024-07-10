@@ -121,7 +121,7 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/resume" passHref>
+                <NextLink href="/files/resume.pdf" passHref>
                   <MenuItem as={Link}>Resume</MenuItem>
                 </NextLink>
                 <NextLink href="https://blog.tylertaewook.com/" passHref>
