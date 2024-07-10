@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, WorkImage, Meta } from '../../components/work'
 import { BsGithub } from 'react-icons/bs'
 import P from '../../components/paragraph'
 
@@ -64,6 +64,7 @@ Currently in stealth      </P>
       <WorkImage src="/images/projects/orbitron-02.png" alt="Algorithm" /> */}
 
     </Container>
+<WorkImage src="/images/projects/quno-01.png" alt="quno" />
   </Layout>
 )
 

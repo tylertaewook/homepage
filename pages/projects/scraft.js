@@ -74,10 +74,6 @@ const Work = () => (
   
         <UnorderedList my={4}>
           <ListItem>
-              <Badge mr={2}>Notice</Badge>
-              Top 10% at YC W23 Batch
-          </ListItem>
-          <ListItem>
               <Badge mr={2}>Acceptance</Badge>
               Anjal Z Techstars Founders Catalyst [Cohort IV]
           </ListItem>

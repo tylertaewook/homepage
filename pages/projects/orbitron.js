@@ -22,7 +22,7 @@ const Work = () => (
     <Container maxW="container.xl">
       <Stack direction={['column', 'row']} my={4} spacing='24px' justify="space-between">
         <Title>
-            Orbitron <Badge>2018-2020</Badge>
+            Orbitron
         </Title>
         <Link href="https://github.com/tylertaewook/project-orbitron" target="_blank">
           <Button leftIcon={<BsGithub/>} colorScheme="teal" size='sm' variant='solid'>
@@ -50,7 +50,7 @@ const Work = () => (
         <ListItem>
           <Meta>Poster</Meta>
           <Link href="/files/orbitron-poster.pdf">
-            2019 Conneticut Science Fair <ExternalLinkIcon mx="2px" />
+            Conneticut Science Fair <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -83,7 +83,7 @@ const Work = () => (
         <ListItem>
           <Link href="https://kentnews.org/2525/features/a-guild-presentation-by-tyler-kim-20/">
             <Badge mr={2}>Kent News</Badge>
-            A Guild Presentation by Tyler Kim ‘20{' '}
+            A Guild Presentation by Tyler Kim{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
