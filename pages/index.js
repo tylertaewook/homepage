@@ -46,7 +46,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi, I&apos;m an undergrad studying CS at Columbia!
+        Co-Founder and CEO at Quno (PearX S24) | Columbia CS
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -54,7 +54,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Tyler Kim
           </Heading>
-          <p>( Product Developer / Web Developer / ML Researcher )</p>
+          {/* <p>( Product Developer / Web Developer / ML Researcher )</p> */}
           <Stack mt={4} spacing={4} direction='row' align='center'>
             <Link href="/files/resume.pdf" target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" size='md' variant='solid'>
@@ -136,10 +136,9 @@ const Home = () => (
          👋 Nice to meet you!
         </Heading>
         <Paragraph>
-          My name is Tyler, an undergrad at Columbia SEAS pursuing towards a B.S. in Computer Science.
-          My current interest revolves around the intersection of LLMs and education as shown in my ongoing project {' '}
-          <NextLink href="/projects/scraft" passHref scroll={false}>
-            <Link>scraft.ai</Link>
+        Hi, I'm Tyler, I previously spent time building across various software verticals, everything from ed-tech($55k in prize), robotics control system (patented), and counterfeit-detection (acquired). I'm currently building{' '}
+          <NextLink href="https://quno.io" passHref scroll={false}>
+            <Link>Quno</Link>
           </NextLink>.
         </Paragraph>
       </Section>
