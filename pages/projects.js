@@ -6,6 +6,7 @@ import { Tag } from '../components/work'
 
 import thumbEssay from '../public/images/projects/essay-01.png'
 import thumbScraft from '../public/images/projects/scraft-01.png'
+import thumbQuno from '../public/images/projects/quno-01.png'
 import thumbOrbitron from '../public/images/projects/orbitron-01.png'
 import thumbTutor from '../public/images/projects/tutor-01.png'
 import thumbKeywordPrice from '../public/images/projects/keywordprice-01.png'
@@ -38,13 +39,23 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem id="quno" title="Quno" thumbnail={thumbQuno}>
+          
+          </WorkGridItem>
+          <Center >
+            <Tag>Web-dev</Tag>
+            <Tag>Fullstack</Tag>
+            <Tag>LLM</Tag>
+          </Center>
+        </Section>
+        <Section>
           <WorkGridItem id="scraft" title="Scraft" thumbnail={thumbScraft}>
           Interactive Storybook for Language Learners
           </WorkGridItem>
           <Center >
             <Tag>Web-dev</Tag>
             <Tag>Fullstack</Tag>
-            <Tag>LLMOps</Tag>
+            <Tag>LLM</Tag>
           </Center>
         </Section>
         <Section>

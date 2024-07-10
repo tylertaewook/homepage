@@ -136,7 +136,7 @@ const Home = () => (
          👋 Nice to meet you!
         </Heading>
         <Paragraph>
-        Hi, I'm Tyler, I previously spent time building across various software verticals, everything from ed-tech($55k in prize), robotics control system (patented), and counterfeit-detection (acquired). I'm currently building{' '}
+        Hi, I&apos;m Tyler, I previously spent time building across various software verticals, everything from ed-tech($55k in prize), robotics control system (patented), and counterfeit-detection (acquired). I&apos;m currently building{' '}
           <NextLink href="https://quno.io" passHref scroll={false}>
             <Link>Quno</Link>
           </NextLink>.
