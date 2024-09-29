@@ -22,6 +22,7 @@ import { GridItem, BlogItem } from '../components/grid-item'
 import { BsGithub, BsLinkedin, BsMedium } from 'react-icons/bs'
 import thumbScraft from '../public/images/projects/scraft-01.png'
 import thumbOrbitron from '../public/images/projects/orbitron-01.png'
+import thumbQuno from '../public/images/projects/quno-01.png'
 import Image from 'next/image'
 import VoxelDogLoader from '../components/voxel-dog-loader'
 
@@ -46,7 +47,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Co-Founder and CEO at Quno (PearX S24) | Columbia CS
+        Co-Founder and CPO at Quno (PearX S24) | Columbia CS
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -137,7 +138,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
         Hi, I&apos;m Tyler, I previously spent time building across various software verticals, everything from ed-tech($55k in prize), robotics control system (patented), and counterfeit-detection (acquired). I&apos;m currently building{' '}
-          <NextLink href="https://quno.io" passHref scroll={false}>
+          <NextLink href="https://quno.ai" passHref scroll={false}>
             <Link>Quno</Link>
           </NextLink>.
         </Paragraph>
@@ -161,37 +162,34 @@ const Home = () => (
               >
               ~$ ssh <Link color={"green.300"} href="https://blog.tylertaewook.com">blog.tylertaewook.com</Link><div id="cursor"></div>
           </Text>
-          <BlogItem 
-              title="How AI's Socratic Questioning can help you write better" 
-              summary="Story behind building Scraft: an AI-powered Writing Tool" 
-              date="August 18, 2022" 
-              href="https://blog.tylertaewook.com/post/ai-socratic-questioning"
-          ></BlogItem>
-          <BlogItem 
-              title="What I learned from building a Django appointment scheduler for my school" 
-              summary="The project that taught me how to learn, why I learn, and what to learn in my future CS career." 
-              date="May 30, 2021" 
-              href="https://blog.tylertaewook.com/post/tutor-scheduler-django"
-          >
-          </BlogItem>
-          <BlogItem 
-              title="Understanding Proximal Policy Optimization (Schulman et al., 2017)" 
-              summary="How I approached the PPO paper bottom-up as a beginner" 
-              date="April 30, 2021" 
-              href="https://blog.tylertaewook.com/post/proximal-policy-optimization"
-          >
-          </BlogItem>
-          <BlogItem 
-              title="Orbitron: Reinventing the (spherical) wheels and its control algorithm" 
-              summary="My six-month journey of building a 4 Wheel Independent Steering/Driving Vehicle" 
-              date="April 2, 2021" 
-              href="https://blog.tylertaewook.com/post/project-orbitron"
-          >
-          </BlogItem>
+              <BlogItem 
+                  title="Orbitron: Reinventing the (spherical) wheels and its control algorithm" 
+                  summary="My six-month journey of building a 4 Wheel Independent Steering/Driving Vehicle" 
+                  date="April 2, 2021" 
+                  href="https://blog.tylertaewook.com/post/project-orbitron"
+              />
+              <BlogItem 
+                  title="Understanding Proximal Policy Optimization (Schulman et al., 2017)" 
+                  summary="How I approached the PPO paper bottom-up as a beginner" 
+                  date="April 30, 2021" 
+                  href="https://blog.tylertaewook.com/post/proximal-policy-optimization"
+              />
+              <BlogItem 
+                  title="How AI's Socratic Questioning can help you write better" 
+                  summary="Story behind building Scraft: an AI-powered Writing Tool" 
+                  date="August 18, 2022" 
+                  href="https://blog.tylertaewook.com/post/ai-socratic-questioning"
+              />
+              <BlogItem 
+                  title="What I learned from building a Django appointment scheduler for my school" 
+                  summary="The project that taught me how to learn, why I learn, and what to learn in my future CS career." 
+                  date="May 30, 2021" 
+                  href="https://blog.tylertaewook.com/post/tutor-scheduler-django"
+              />
         </Stack>
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
          🚀 I&apos;m interested in...
         </Heading>
@@ -207,21 +205,21 @@ const Home = () => (
           <BioYear>Robotics</BioYear>
           arduino, robot-vision, control-algorithm
         </BioSection>
-      </Section>
+      </Section> */}
 
 
-      <Section delay={0.4}>
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
         💡 I&apos;m most proud of...
         </Heading>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="/projects/scraft"
-            title="Scraft"
-            thumbnail={thumbScraft}
+            href="/projects/quno"
+            title="Quno"
+            thumbnail={thumbQuno}
           >
-            Interactive Storybook for Language Learners
+            Market Research on Autopilot
           </GridItem>
           <GridItem
             href="/projects/orbitron"

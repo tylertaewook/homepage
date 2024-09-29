@@ -27,13 +27,12 @@ const Work = () => (
           Private Repo
         </Button>
       </Stack>
-      <P>
-Currently in stealth      </P>
+      <P>Market Research on Autopilot</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://quno.io/">
-            quno.io <ExternalLinkIcon mx="2px" />
+          <Link href="https://quno.ai/">
+            quno.ai <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         {/* <ListItem>
@@ -50,13 +49,13 @@ Currently in stealth      </P>
         </Heading>
   
         <UnorderedList my={4}>
-          <ListItem>
+          {/* <ListItem>
               <Badge mr={2}>Notice</Badge>
               Top 10% at YC W23 Batch
-          </ListItem>
+          </ListItem> */}
           <ListItem>
               <Badge mr={2}>Acceptance</Badge>
-              One of 20 companies at PearX S24 selected from 2100+ applications
+              One of 21 companies at PearX S24 selected from 2100+ applications
           </ListItem>
 
         </UnorderedList>
